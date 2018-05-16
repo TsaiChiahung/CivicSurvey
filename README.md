@@ -9,9 +9,6 @@
 
 # 使用說明
 <li>本資料集暫時由蔡佳泓研究員維護。 </li> 
-
 <li>右邊<span style="color:green">「clone or download」</span>可自行下載檔案。  </li>
-
 <li>如果使用者願意公開提供相關語法、文章，請來信告知。  </li>
-
 <li>目前調查資料時間範圍為2006年至2018年</li>
