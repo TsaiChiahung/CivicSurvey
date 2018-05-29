@@ -732,12 +732,6 @@ var lab tondu "統獨立場".
 val lab tondu 1 "儘快統一" 2 "維持現狀，以後走向統一" 3 "維持現狀，看情形再決定獨立或統一" 4 "永遠維持現狀" 5 "維持現狀，以後走向獨立" 6 "儘快獨立" 9 "無反應".       
 cro q19 by tondu.
 
-compute tondu_3=q19.                                                                                                                                                  
-recode tondu_3 (1=1)(3 4 5 6=2)(2=3)(7=9)(95 thru 98=9).                                                                                                            
-var lab tondu_3 "統獨立場3分類".                                                                                                                                             
-val lab tondu_3 1 "儘快統一" 2 "維持現狀" 3 "儘快獨立" 9 "無反應".       
-fre tondu tondu_3.
-
 fre sex age edu arear.
 
 *[建立新變數].
